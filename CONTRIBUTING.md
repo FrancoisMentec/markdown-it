@@ -13,3 +13,4 @@
 3. __Provide examples with [demo](https://markdown-it.github.io/) when possible.__
 4. Issues of "question" type are closed after several days of inactivity,
    if not qualified as bug report, enhancement etc (see 1).
+5. If you are behind a proxy, you may need to provide its certificate to run Cmark tests. You can use this command: `npx cross-env NODE_EXTRA_CA_CERTS=./path/to/certificate.pem npm test`
